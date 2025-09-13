@@ -13,10 +13,10 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nutriTrackWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb5cc377f6fee5e1e96468b08ff2109ca028d54e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ec632a30a820fb003b591de3025bb973e64b2da")]
 [assembly: System.Reflection.AssemblyProductAttribute("nutriTrackWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nutriTrackWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
-// Von der MSBuild WriteCodeFragment-Klasse generiert.
+// Gerado pela classe WriteCodeFragment do MSBuild.
 
