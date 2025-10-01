@@ -9,23 +9,25 @@
 
     <!-- Cabeçalho -->
     <header>
-        <h1 style="color: white;">NutriTrackWeb</h1> <!--alterar para o Logo -->
-        <nav>
-          <a class="links-nav" href="Views\Home\Index.cshtml">Home</a>
-            <a class="links-nav" href="Views\Home\Locations.cshtml">Service Area</a>
-            <a class="links-nav" href="Views\Home\Contact.cshtml">Contact Us</a>
-            <a class="links-nav" href="Views\Home\Login.cshtml">Login</a>
-
-        </nav> 
+    <div class="header-container">
+    <img src="@Url.Content("~/images/NutriTrackWebGR.png")" alt="Logo NutriTrack" class="logo-nav" />
+    <h1 class="fraseefeito"> a space for care, transformation and connection </h1>
+    <nav class="nav-links">
+      <a href="/Index" class="links-nav">Home</a>
+      <a href="/Contact" class="links-nav">Contact</a>
+      <a href="/Locations" class="links-nav">Locations</a>
+      <a href="/Login" class="links-nav">Login</a>
+    </nav>
+    </div>
     </header>
 
     <!-- Conteúdo da página -->
-    <main style="padding: 80px;">
-        @RenderBody()
+    <main>
+        @RenderBody()    
     </main>
 
     <!-- Rodapé -->
-    <footer style="background-color: #4A7C59; color: white; text-align: center; padding: 20px;">
+    <footer>
         &copy; 2025 NutriTrackWeb by Stefany
     </footer>
     
