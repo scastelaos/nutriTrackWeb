@@ -1,22 +1,103 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-<img class = "imgfundo" src="~/images/fundo.jpg" alt="foto fundo">
-<div class="text-center content">
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutriTrackWeb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+    
+</head>
+<body>
+        <section class="section hero" id="sobre">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Conheça a Dra. Mariana Costa</h2> <br />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien nec tincidunt tincidunt, justo nulla facilisis nulla, vitae tincidunt sapien libero nec sapien. Curabitur convallis, sem a tincidunt tincidunt, sapien sapien tincidunt sapien, nec tincidunt sapien sapien nec sapien. Fusce tincidunt sapien nec sapien tincidunt, nec tincidunt sapien tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien nec tincidunt tincidunt, justo nulla facilisis nulla, vitae tincidunt sapien libero nec sapien.
+                </p><br />
+                <button style="margin: 3px">Saiba mais </button>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://img.freepik.com/fotos-premium/pronto-para-outro-dia-fotografia-de-uma-jovem-medica-a-trabalhar_590464-62611.jpg" alt="Médica Profissional" />
+            </div>
+        </div>
+    </section>
 
-                                <h2 style="text-align: center;" ><span> Clínica Dentinhos </span></h2>
-                                <div style="text-align: center;"><img src="Logo.jpeg" height="200"/> </div>
-                                <h4 style="text-align: center;">A sua clínica dentária de confiança em Luanda!</h4>
-                                <p>Na <span>Clínica Dentinhos</span>, estamos comprometidos em cuidar do seu sorriso e da sua saúde oral.<br>
-                                    <br>Com uma equipa de profissionais experientes e dedicados, oferecemos uma variedade de serviços especializados:</p>
+    <section class="section" id="reviews">
+        <h2 style="text-align:center; color: var(--rosa-vibrante); margin-bottom: 1rem;">O que dizem nossas clientes</h2><br />
+        <div class="reviews">
+            <div class="reviewcard">
+                <p><em>“NutriTrackWeb mudou minha rotina alimentar. Me sinto mais saudável e confiante!”</em></p>
+                <p><strong>— Ana Paula, 34 anos</strong></p>
+            </div>
+            <div class="reviewcard">
+                <p><em>“A Dra. Mariana é incrível! O acompanhamento foi acolhedor e eficaz.”</em></p>
+                <p><strong>— Juliana Mendes, 29 anos</strong></p>
+            </div>
+            <div class="reviewcard">
+                <p><em>“Finalmente encontrei um projeto que entende as necessidades da mulher moderna.”</em></p>
+                <p><strong>— Camila Rocha, 41 anos</strong></p>
+            </div>
+        </div>
+    </section>
 
-                            
-                                    <br><p><b>Prótese Dentária:</b><br> Restauramos a função e a estética dos seus dentes com próteses personalizadas.</p>
-                                    <p><b>Ortodontia:</b><br> Corrigimos o alinhamento dos dentes e maxilares para um sorriso harmonioso.</p>
-                                    <p><b>Branqueamento Dentário:</b><br> Deixe os seus dentes mais brancos e radiantes com o nosso tratamento de branqueamento.</p>
-                                
+    <section class="section" id="redes">
+        <h2 style="text-align:center; color: var(--rosa-vibrante); margin-bottom: 1rem;">Conheça nossas redes sociais</h2>
+        <div style="display: flex; justify-content: center; gap: 2rem;">
+            <a href="https://www.instagram.com" target="_blank" style="color: var(--rosa-vibrante); font-size: 2rem;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" style="color: var(--rosa-vibrante); font-size: 2rem;">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+    </section>
 
-                                <br><p style="text-align: center;">Com mais de 30 anos de experiência odontológica, estamos comprometidos em fornecer cuidados de máxima qualidade a preços acessíveis. A sua saúde oral está em boas mãos com os <span>Dentinhos!</span> 🦷😁</p>
-                
-                    
-</div>
+
+    <section class="section" id="contato">
+        <div class="form-section">
+            <h3>Entre em contato</h3>
+            <form>
+                <input type="text" placeholder="Seu nome" required />
+                <input type="email" placeholder="Seu e-mail" required />
+                <input type="text" placeholder="Seu número de WhatsApp" required />
+
+                <label for="unidade">Escolha a unidade:</label>
+                <select id="unidade" required>
+                    <option value="">Selecione...</option>
+                    <option value="sp">São Paulo - Unidade Central</option>
+                    <option value="rj">Rio de Janeiro - Zona Sul</option>
+                    <option value="bh">Belo Horizonte - Savassi</option>
+                </select>
+                <br />
+
+                <div style="background-color:red">
+                <label>Preferência de contato:</label><br />
+                    <input type="checkbox" id="prefereLigacao" value="prefereLigacao"/>
+                    <span>oi</span>
+                    <label for="prefereLigacao">Ligação</label><br />
+                <input type="checkbox" id="prefereEmail" value="prefereEmail" />
+                    <label for="prefereEmail">E-mail</label><br />
+                <input type="checkbox" id="prefereWhatsapp" value="prefereWhatsapp" />
+                    <label for="prefereWhatsapp">WhatsApp</label><br /><br />
+                </div>
+
+                <textarea rows="4" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        
+    </footer>
+
+    <a href="#" class="whatsapp-icon" title="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
+
+

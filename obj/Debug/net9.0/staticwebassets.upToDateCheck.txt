@@ -1,0 +1,10 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\fundo.jpg
+wwwroot\images\LogoNutriTrack.png
+wwwroot\images\LogoNutriTrackGR.png
+wwwroot\images\NutriTrackWebGR.png
+wwwroot\js\site.js
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\wwwroot\js\site.js
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\wwwroot\favicon.ico
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\wwwroot\css\site.css

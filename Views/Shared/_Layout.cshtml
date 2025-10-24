@@ -1,35 +1,229 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="utf-8" />
-    <title>@ViewData["Title"] - NutriTrackWeb</title>
-    <link rel="stylesheet" href="~/css/site.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - NutriTrackWeb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+    <style>
+        :root {
+            --rosa-suave: #FDECEF; /*Fundo principal da página*/
+            --verde-menta: #C8E6C9;
+            --rosa-vibrante: #F06292; /* Cor de destaque para títulos */
+            --verde-botao: #81C784; /* Cor dos botões principais */
+            --texto: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--rosa-suave);
+            color: var(--texto);
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: var(--verde-menta);
+            padding: 2rem;
+            text-align: center;
+        }
+
+            header nav {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+            }
+
+                header nav a {
+                    text-decoration: none;
+                    color: var(--rosa-vibrante);
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                }
+
+                    header nav a:hover {
+                        color: var(--texto);
+                    }
+
+        .section {
+            padding: 3rem 2rem;
+        }
+
+        .checkbox {
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero {
+            background-image: url('https://casa.abril.com.br/wp-content/uploads/2021/03/tipos-de-flores-para-decorar-seu-ambiente-casa.com-10-flor-de-lotus.jpg?quality=70&strip=info&w=1024');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            color: var(--texto);
+        }
+
+            .hero::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background-color: rgba(255, 255, 255, 0.6);
+                z-index: 0;
+            }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-text, .hero-image {
+            flex: 1;
+            min-width: 280px;
+        }
+
+            .hero-image img {
+                width: 100%;
+                border-radius: 8px;
+            }
+
+        button {
+            background-color: var(--verde-botao);
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #66bb6a;
+            }
+
+        .reviews {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .reviewcard {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            max-width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+            .reviewcard p {
+                margin-bottom: 0.5rem;
+            }
+
+        .form-section {
+            background-color: #fff;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+            .form-section h3 {
+                margin-bottom: 1rem;
+                color: var(--rosa-vibrante);
+            }
+
+            .form-section input, .form-section textarea {
+                width: 100%;
+                padding: 0.8rem;
+                margin-bottom: 1rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-family: inherit;
+            }
+
+        footer {
+            background-color: var(--verde-menta);
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+       
+       
+       
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 100px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+
+            .whatsapp-icon:hover {
+                background-color: #1ebe5d;
+            }
+
+            
+    </style>
 </head>
 <body>
-
-    <!-- Cabeçalho -->
     <header>
-    <div class="header-container">
-    <img src="@Url.Content("~/images/NutriTrackWebGR.png")" alt="Logo NutriTrack" class="logo-nav" />
-    <h1 class="fraseefeito"> a space for care, transformation and connection </h1>
-    <nav class="nav-links">
-      <a href="/Index" class="links-nav">Home</a>
-      <a href="/Contact" class="links-nav">Contact</a>
-      <a href="/Locations" class="links-nav">Locations</a>
-      <a href="/Login" class="links-nav">Login</a>
-    </nav>
-    </div>
+        <img src="@Url.Content("~/images/NutriTrackWebGR.png")" alt="Logo NutriTrack" class="logo-nav" />
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
 
-    <!-- Conteúdo da página -->
-    <main>
-        @RenderBody()    
-    </main>
+    @RenderBody()
 
-    <!-- Rodapé -->
     <footer>
-        &copy; 2025 NutriTrackWeb by Stefany
+        <div style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+  ">
+            <div>
+                <p><strong>Unidade Central</strong></p>
+                <p>Rua das Flores, 123<br>São Paulo, SP</p>
+                <p>Tel: (11) 98765-4321<br>Email: central@nutritrackweb.com</p>
+            </div>
+            <div style="text-align: center;">
+                <p><strong>Unidade Zona Sul</strong></p>
+                <p>Av. Atlântica, 456<br>Rio de Janeiro, RJ</p>
+                <p>Tel: (21) 99876-5432<br>Email: rj@nutritrackweb.com</p>
+            </div>
+            <div style="text-align: right;">
+                <p><strong>Unidade Savassi</strong></p>
+                <p>Rua da Saúde, 789<br>Belo Horizonte, MG</p>
+                <p>Tel: (31) 91234-5678<br>Email: bh@nutritrackweb.com</p>
+            </div>
+        </div>
     </footer>
-    
+
+    <a href="#" class="whatsapp-icon" title="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
