@@ -32,8 +32,8 @@ C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\ref
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\nutriTrackWeb.pdb
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\nutriTrackWeb.genruntimeconfig.cache
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\ref\nutriTrackWeb.dll
-C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\2318093ez1-fr7q2aak1r.gz
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\o70iyjd0p1-7w8gm2ywuq.gz
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\xa3ccqwfzs-7w8gm2ywuq.gz
-C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\b4j5ih702w-0gnrkce8hq.gz
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\b4j5ih702w-z0tmivwwuk.gz
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\2318093ez1-xtxxf3hu2r.gz
