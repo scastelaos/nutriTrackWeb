@@ -58,17 +58,17 @@
     <section class="section" id="contato">
         <div class="form-section">
             <h3>Entre em contato</h3>
-            <form>
-                <input type="text" placeholder="Seu nome" required />
-                <input type="email" placeholder="Seu e-mail" required />
-                <input type="text" placeholder="Seu número de WhatsApp" required />
+            <form method="post" action="Contact/Send">
+                <input type="text" placeholder="Seu nome" name="Name" required />
+                <input type="email" placeholder="Seu e-mail" name="Email" required />
+                <input type="text" placeholder="Seu número de WhatsApp" name="Whatsapp" required />
 
                
                 <br />
 
           
 
-                <textarea rows="4" placeholder="Sua mensagem" required></textarea>
+                <textarea rows="4" placeholder="Sua mensagem" name="Message" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
         </div>

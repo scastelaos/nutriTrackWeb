@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nutriTrackWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68b089f47023d8c8cb861876151030e3e863a942")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60b120dbacbf2c5aba5e43c342bb21259ce60d26")]
 [assembly: System.Reflection.AssemblyProductAttribute("nutriTrackWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nutriTrackWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

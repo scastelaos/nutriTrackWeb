@@ -1,9 +1,13 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// registra o IConfiguration para injeção
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
