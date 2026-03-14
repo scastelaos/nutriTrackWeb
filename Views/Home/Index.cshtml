@@ -8,20 +8,22 @@
     
 </head>
 <body>
-        <section class="section hero" id="sobre">
-        <div class="hero-content">
-            <div class="hero-text">
+        <section class="section-1" id="sobre">
+        <div class="overlay"></div>
+        <div class="section-content">
+            <div class="primary-text">
                 <h2>Conheça a Dra. Mariana Costa</h2> <br />
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien nec tincidunt tincidunt, justo nulla facilisis nulla, vitae tincidunt sapien libero nec sapien. Curabitur convallis, sem a tincidunt tincidunt, sapien sapien tincidunt sapien, nec tincidunt sapien sapien nec sapien. Fusce tincidunt sapien nec sapien tincidunt, nec tincidunt sapien tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien nec tincidunt tincidunt, justo nulla facilisis nulla, vitae tincidunt sapien libero nec sapien.
                 </p><br />
-                <button style="margin: 3px">Saiba mais </button>
+                <button style="margin: 3px" class="btn btn-principal">Saiba mais </button>
             </div>
             
-            <div class="hero-image">
+            <div class="primary-img">
                 <img src="https://img.freepik.com/fotos-premium/pronto-para-outro-dia-fotografia-de-uma-jovem-medica-a-trabalhar_590464-62611.jpg" alt="Médica Profissional" />
             </div>
         </div>
+        
     </section>
 
     <section class="section" id="reviews">
@@ -54,33 +56,49 @@
         </div>
     </section>
 
-
+    
     <section class="section" id="contato">
         <div class="form-section">
             <h3>Entre em contato</h3>
             <form method="post" action="Contact/Send">
-                <input type="text" placeholder="Seu nome" name="Name" required />
-                <input type="email" placeholder="Seu e-mail" name="Email" required />
-                <input type="text" placeholder="Seu número de WhatsApp" name="Whatsapp" required />
+                <input type="text" placeholder="Seu nome" name="Name" required class="form-control"/>
+                <input type="email" placeholder="Seu e-mail" name="Email" required class="form-control"/>
+                <input type="text" placeholder="Seu número de WhatsApp" name="Whatsapp" required  class="form-control"/>
 
                
                 <br />
 
           
 
-                <textarea rows="4" placeholder="Sua mensagem" name="Message" required></textarea>
-                <button type="submit">Enviar</button>
+                <textarea rows="4" placeholder="Sua mensagem" name="Message" required class="form-control"></textarea>
+                <button type="submit" class="btn btn-principal">Enviar</button>
             </form>
         </div>
     </section>
 
 
     <footer>
-        
+        <div class="infos-footer">
+            <div class="infos-card" >
+                <p><strong>Unidade Central</strong></p>
+                <p>Rua das Flores, 123<br>São Paulo, SP</p>
+                <p>Tel: (11) 98765-4321<br>Email: central@nutritrackweb.com</p>
+            </div>
+            <div class="infos-card">
+                <p><strong>Unidade Zona Sul</strong></p>
+                <p>Av. Atlântica, 456<br>Rio de Janeiro, RJ</p>
+                <p>Tel: (21) 99876-5432<br>Email: rj@nutritrackweb.com</p>
+            </div>
+            <div class="infos-card">
+                <p><strong>Unidade Savassi</strong></p>
+                <p>Rua da Saúde, 789<br>Belo Horizonte, MG</p>
+                <p>Tel: (31) 91234-5678<br>Email: bh@nutritrackweb.com</p>
+            </div>
+        </div>
     </footer>
 
     <a href="#" class="whatsapp-icon" title="Fale conosco pelo WhatsApp">
-        <i class="fab fa-whatsapp"></i>
+        <i class="fa-brands fa-whatsapp"></i>
     </a>
 </body>
 </html>

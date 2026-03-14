@@ -1,28 +1,177 @@
-html {
-  position:relative;
-  font-size: 14px;
-  margin: 0%;
+:root {
+    --rosa-suave: #FDECEF; /*Fundo principal da página*/
+    --verde-menta: #C8E6C9;
+    --rosa-vibrante: #F06292; /* Cor de destaque para títulos */
+    --botao-principal: #81C784; /* Cor dos botões principais */
+    --botao-principal-hover: #6BAF6E; /* 15% mais escuro do botao principal*/
+    --texto: #333333;
+    --texto-botao-principal: #FFF;
 }
 
-footer{
-  text-align: center;
-  position: fixed;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.imgfundo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  filter: brightness(0.3);
-  z-index: -1;
+
+header {
+    background-color: var(--verde-menta);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem;
 }
 
-.texto-apresentacao {
-  text-align: center;
-  color: white;
-  padding: 10%;
+.section-1 {
+    padding: 3rem 2rem;
+    background-image: url('https://casa.abril.com.br/wp-content/uploads/2021/03/tipos-de-flores-para-decorar-seu-ambiente-casa.com-10-flor-de-lotus.jpg?quality=70&strip=info&w=1024');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white; /* cor do texto dentro dessa sessao com foto*/
 }
+
+.overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55); /* ajuste aqui a opacidade */
+    z-index: 0;
+}
+.section {
+    padding: 3rem 2rem;
+}
+
+.checkbox {
+    position: relative;
+    display: inline-block;
+}
+
+
+.section-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primary-text, .primary-img {
+    flex: 1;
+    min-width: 280px;
+}
+
+   .primary-img img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+.btn-principal {
+    --bs-btn-color: var(--texto-botao-principal);
+    --bs-btn-bg: var(--botao-principal);
+    --bs-btn-border-color: var(--botao-principal);
+    --bs-btn-hover-color: var(--texto-botao-principal);
+    --bs-btn-hover-bg: var(--botao-principal-hover);
+    --bs-btn-hover-border-color: var(--botao-principal-hover);
+    
+}
+
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.reviewcard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+    .reviewcard p {
+        margin-bottom: 0.5rem;
+    }
+
+.form-section {
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+    .form-section h3 {
+        margin-bottom: 1rem;
+        color: var(--rosa-vibrante);
+    }
+
+    .form-section input, .form-section textarea {
+        width: 100%;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: inherit;
+    }
+
+footer {
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    background-color: var(--verde-menta);
+}
+.creditos {
+    background-color: #000;
+    color: #F0F0F0;
+    align-content:center;
+    display:flex;
+
+}
+.infos-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align:center;
+}
+
+.infos-card {
+    margin: 0% 7%;
+    max-width: 300px;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding: 15px;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+
+    .whatsapp-icon:hover {
+        background-color: #1ebe5d;
+    }
+
+

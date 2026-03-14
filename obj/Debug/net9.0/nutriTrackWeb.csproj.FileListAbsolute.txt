@@ -35,7 +35,6 @@ C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\ref
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\o70iyjd0p1-7w8gm2ywuq.gz
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\xa3ccqwfzs-7w8gm2ywuq.gz
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\b4j5ih702w-z0tmivwwuk.gz
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\2318093ez1-xtxxf3hu2r.gz
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\bin\Debug\net9.0\Google.Protobuf.dll
@@ -106,3 +105,8 @@ C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\bin\Debug\net9.0\run
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
 C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\r2vyz53wg0-evu8y4tl4x.gz
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\l4nbhbq4lc-026e6kk7rh.gz
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\w61uiggebp-lhbtj9850u.gz
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\819fcp61by-wvublzrdv8.gz
+C:\Users\stefa\Desktop\Stefany_\_Dev\Projetos\nutriTrackWeb\obj\Debug\net9.0\compressed\b4j5ih702w-ye0jijaux2.gz
