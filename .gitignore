@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Logs
+*.log
+
+# EF Core
+Migrations/
+
+# Cache
+*.cache
+*.db
+*.idx
