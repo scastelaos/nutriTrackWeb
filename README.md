@@ -13,10 +13,9 @@ Criar uma aplicação web onde cada cliente possa visualizar:
 - ASP.NET Core MVC
 - HTML, CSS
 - C#
+- Bootstrap  v5.3.8
+- SQL Server 
 
 ### Status do projeto
 Em desenvolvimento — aprendendo e construindo passo a passo
 
----
-
-Se quiser acompanhar minha evolução, fique à vontade!
