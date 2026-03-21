@@ -2,7 +2,7 @@
 {
     public class LoginViewModel
     {
-        public int Codigo { get; set; }
+        public string UserLogin { get; set; }
         public string Senha { get; set; }
     }
 }

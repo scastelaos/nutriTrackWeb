@@ -15,17 +15,21 @@
     <header>
 
         <div>
-                <img src="@Url.Content("~/images/NutriTrackWebGR.png")" alt="Logo NutriTrack" class="logo-nav" style="max-width:50%;" />
-            </div>
+           <img src="@Url.Content("~/images/NutriTrackWebGR.png")" alt="Logo NutriTrack" class="logo-nav" style="max-width:50%;" />
+       </div>
             
         <nav>
-            <a class="btn btn-principal" href="/Home/Index">Inicio</a>
-            <a class="btn btn-principal" href="/Account/Login"> Login</a>
+            
+            <div class="d-flex gap-2 flex-nowrap">
+                @RenderSection("HeaderRight", required: false)
+            </div>
         </nav>
     </header>
+    <main>
 
     @RenderBody()
 
+    </main>
     <footer class="creditos">
         NutriTrackWeb © @DateTime.Now.Year - Created by Stefany Castelao
     </footer>

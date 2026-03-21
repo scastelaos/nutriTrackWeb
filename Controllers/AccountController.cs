@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using nutriTrackWeb.Models;
 
 namespace nutriTrackWeb.Controllers
 {
@@ -8,5 +9,14 @@ namespace nutriTrackWeb.Controllers
         {
             return View();
         }
+
+
+        [HttpPost]
+        public IActionResult Login(LoginViewModel model)
+        {
+            return RedirectToAction("Portal", "Client", model);
+        }
+
+
     }
 }
